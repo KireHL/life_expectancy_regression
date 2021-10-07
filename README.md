@@ -1,1 +1,3 @@
 # life_expectancy_regression
+
+The purpose of this study is to understand the correlation between certain variables and the life expectancy given to someone at birth. The data sets for this analysis were collected from two sources. GDP Per Capita was collected from The World Bank, and the others from Our World in Data. They were then processed and cleaned to cover 194 countries and terriorties from 1990 to 2017. After hyper parameter tuning we can see the strength of ensemble algorithms where Gradient Boosting received an r2 score of 0.997 and MAE of 0.329; and then assess the permutation importance of models features.
